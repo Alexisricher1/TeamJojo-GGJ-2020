@@ -780,8 +780,8 @@ GameObject:
   - component: {fileID: 1026255305}
   - component: {fileID: 1026255304}
   - component: {fileID: 1026255303}
-  - component: {fileID: 1026255302}
   - component: {fileID: 1026255306}
+  - component: {fileID: 1026255302}
   m_Layer: 0
   m_Name: Conveyor
   m_TagString: Untagged
@@ -812,9 +812,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1026255300}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e54a5ade9cebdd4e8ed7af652bc257f, type: 3}
+  m_Script: {fileID: 11500000, guid: f740a5c12d2965644b643a235f576b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 2
 --- !u!65 &1026255303
 BoxCollider:
   m_ObjectHideFlags: 0

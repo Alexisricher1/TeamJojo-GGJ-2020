@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class ConveyorController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float speed = 2.0f;
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        Rigidbody rigidbody = GetComponent<Rigidbody>();
+        rigidbody.position -= transform.forward * speed * Time.deltaTime;
+        rigidbody.MovePosition(rigidbody.position + transform.forward * speed * Time.deltaTime);
     }
 }
