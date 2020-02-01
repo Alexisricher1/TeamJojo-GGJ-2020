@@ -17,6 +17,9 @@ namespace Assets.Scripts
 
         private CharacterInputMaping input;
 
+        public int Score { get; set; }
+        public int Coins { get; set; }
+
         // Start is called before the first frame update
         void Start()
         {
