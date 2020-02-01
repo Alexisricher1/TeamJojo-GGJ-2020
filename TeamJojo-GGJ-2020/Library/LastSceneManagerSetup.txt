@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Corantin.unity
+- path: Assets/Scenes/Playground for conveyor.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
